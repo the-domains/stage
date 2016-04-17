@@ -1,14 +1,26 @@
-layout_spectrum: 0.6460795
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.6310419
 color:
   saturation: 0.4018284
-  lightness: 0.3247161
   brandStrength: 0.9962406
+  rhythmicContrast: 0.3637611
   brandColors:
     - '#0D0D0D'
     - '#BDBDBD'
     - '#9A9A9A'
     - '#393939'
     - '#777777'
-  rhythmicContrast: 0.3637611
+  lightness: 0.3247161
+layout_spectrum: 0.7395274
 name: Stage
